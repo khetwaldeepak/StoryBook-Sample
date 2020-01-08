@@ -1,4 +1,4 @@
-# Story Book Sample
+# Story Book Sample in Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
 
