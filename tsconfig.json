@@ -1,0 +1,82 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "button": [
+        "dist/button"
+      ],
+      "button/*": [
+        "dist/button/*"
+      ],
+      "address": [
+        "dist/address"
+      ],
+      "address/*": [
+        "dist/address/*"
+      ],
+      "office": [
+        "dist/office"
+      ],
+      "office/*": [
+        "dist/office/*"
+      ],
+      "events": [
+        "dist/events"
+      ],
+      "events/*": [
+        "dist/events/*"
+      ],
+      "customevent": [
+        "dist/customevent"
+      ],
+      "customevent/*": [
+        "dist/customevent/*"
+      ],
+      "userinfo": [
+        "dist/userinfo"
+      ],
+      "userinfo/*": [
+        "dist/userinfo/*"
+      ],
+      "login": [
+        "dist/login"
+      ],
+      "login/*": [
+        "dist/login/*"
+      ],
+      "sessiontimeout": [
+        "dist/sessiontimeout"
+      ],
+      "sessiontimeout/*": [
+        "dist/sessiontimeout/*"
+      ],
+      "searchbar": [
+        "dist/searchbar"
+      ],
+      "searchbar/*": [
+        "dist/searchbar/*"
+      ]
+    }
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  }
+}
